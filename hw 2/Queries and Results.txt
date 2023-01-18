@@ -1,0 +1,8 @@
+Q1. setof(X,grandchild(X,elizabeth),List).
+A1. List = [beatrice, eugenie, harry, james, louise, peter, william, zara].
+Q2. setof(X,brotherInLaw(X,diana),List).
+A2. List = [andrew, edward, mark].
+Q3. setof(X,firstCousin(X,zara),List).
+A3. List = [beatrice, eugenie, harry, james, louise, william].
+Q4. setof(X,ancestor(X,eugenie),List).
+A4. List = [andrew, elizabeth, george, mum, philip, sarah].
