@@ -1,0 +1,15 @@
+Predicates: rain sprinkler before 
+Variables: t10 t20 t0 
+Constants: C B A D 
+Functions: 
+Clauses:
+!rain(t0) !sprinkler(t0) 
+!sprinkler(t20) !rain(t10) !before(t10,t20) 
+!rain(C) 
+!rain(D) 
+sprinkler(B) 
+before(A,B) 
+before(B,C) 
+before(C,D) 
+rain(A) 
+rain(B) 

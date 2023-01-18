@@ -1,0 +1,5 @@
+train training_set_150.txt trained_model_ada.object ada
+train training_set_150.txt trained_model_dt.object dt
+
+predict trained_model_ada.object testing_set.txt
+predict trained_model_dt.object testing_set.txt

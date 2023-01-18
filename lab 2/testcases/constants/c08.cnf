@@ -1,0 +1,7 @@
+Predicates: motherOf friends 
+Variables: 
+Constants: Odie Kim 
+Functions: 
+Clauses:
+friends(Kim,Odie) 
+!motherOf(Kim,Odie) 
